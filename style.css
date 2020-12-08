@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=PT+Serif&display=swap");
+
+@import url("components/container.css");
+@import url("components/paris.css");
+@import url("components/greece.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	color: black;
+	background-color: whitesmoke;
+}
+
+h1,h2 {
+font-family: 'Snell Roundhand';
+font-weight: bold;
+font-size: 50px;
+}
+
+h3 {
+font-family: 'Georgia', sans-serif;
+font-size: 18px;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.sidebar {
+position: fixed;
+width: 210px;
+left: 0;
+top: 0;
+bottom: 0;
+background-color: transparent;
+font-family: 'PT Serif', serif;
+font-weight: bold;
+color: black;
+font-size: 15px;
+line-height: 80px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.pagecontent{
+margin-left: 200px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 10px;
+}
+
+.btn-1 {
+background-color: violet;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btn-1:hover {
+background-color: slategrey;
+color: white;
+}
+
+.img-circle {
+border-radius: 50px;
+width: 250px;
+margin-left: 200px;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+font-size: 50px;
+color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+color: black;
+}
+
+.Canada {
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 6px;
+}
+
+
+
+
+
+
+
+

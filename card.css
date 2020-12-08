@@ -1,0 +1,31 @@
+.card {
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 6px;
+}
+
+.Caribbean {
+	width: 500px;
+	line-height: 75px;
+}
+
+.img-rectangle {
+border-radius: 50px;
+width: 250px;
+}
+
+.btn-black {
+background-color: black;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btn-black:hover {
+background-color: black;
+color: white
+}
+
